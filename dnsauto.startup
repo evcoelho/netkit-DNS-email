@@ -1,0 +1,4 @@
+ifconfig eth0 192.168.2.3/24 up
+route add default gw 192.168.2.1 dev eth0
+cp /hostlab/dnsauto/etc/bind/* /etc/bind/
+/etc/init.d/bind9 start

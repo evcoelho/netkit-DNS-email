@@ -1,0 +1,13 @@
+$TTL	60000
+@			IN	SOA	ROOT-SERVER.	root.ROOT-SERVER. (
+						2014102401;
+						30;
+						15;
+						60000;
+						0;
+						)
+@					IN	NS	ROOT-SERVER.
+ROOT-SERVER.		IN	A	192.168.3.2
+
+com				IN	NS	dnstld.com.
+dnstld.com.		IN	A	192.168.1.2

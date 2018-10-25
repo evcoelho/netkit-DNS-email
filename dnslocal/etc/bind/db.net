@@ -1,0 +1,10 @@
+$TTL 60000
+@			IN	SOA	dnslocal.net.	admin.dnslocal.net. (
+					2014102401;
+					30;
+					15;
+					60000;
+					0;
+					)
+@			IN	NS	dnslocal.net.
+dnslocal		IN	A	192.168.4.2

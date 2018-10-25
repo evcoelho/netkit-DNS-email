@@ -1,0 +1,6 @@
+ifconfig eth0 192.168.4.2/24 up
+route add default gw 192.168.4.1 dev eth0
+#copia conteudo do diretório bind fora da vm para dentro da vm
+cp /hostlab/dnslocal/etc/bind/* /etc/bind/
+#inicia servidor dns
+/etc/init.d/bind9 start
